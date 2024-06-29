@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI_Memory_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI_Memory_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="520.073 ns"></ZoomStartTime>
+      <ZoomEndTime time="784.674 ns"></ZoomEndTime>
+      <Cursor1Time time="770.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/AXI_Memory_tb/DUT/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/awvaid" type="logic">
+      <obj_property name="ElementShortName">awvaid</obj_property>
+      <obj_property name="ObjectShortName">awvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/wvaid" type="logic">
+      <obj_property name="ElementShortName">wvaid</obj_property>
+      <obj_property name="ObjectShortName">wvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/bresp_w" type="array">
+      <obj_property name="ElementShortName">bresp_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/bresp_r" type="array">
+      <obj_property name="ElementShortName">bresp_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/bvaid" type="logic">
+      <obj_property name="ElementShortName">bvaid</obj_property>
+      <obj_property name="ObjectShortName">bvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/arvaid" type="logic">
+      <obj_property name="ElementShortName">arvaid</obj_property>
+      <obj_property name="ObjectShortName">arvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/rvaid" type="logic">
+      <obj_property name="ElementShortName">rvaid</obj_property>
+      <obj_property name="ObjectShortName">rvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/mem" type="array">
+      <obj_property name="ElementShortName">mem[32:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[32:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/DIN" type="array">
+      <obj_property name="ElementShortName">DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/DOUT" type="array">
+      <obj_property name="ElementShortName">DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/Wen" type="logic">
+      <obj_property name="ElementShortName">Wen</obj_property>
+      <obj_property name="ObjectShortName">Wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/Ren" type="logic">
+      <obj_property name="ElementShortName">Ren</obj_property>
+      <obj_property name="ObjectShortName">Ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/w_addr" type="array">
+      <obj_property name="ElementShortName">w_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">w_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/r_addr" type="array">
+      <obj_property name="ElementShortName">r_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/W_ADDR" type="array">
+      <obj_property name="ElementShortName">W_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/WRITE" type="array">
+      <obj_property name="ElementShortName">WRITE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/W_RESPONSE" type="array">
+      <obj_property name="ElementShortName">W_RESPONSE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_RESPONSE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/R_ADDR" type="array">
+      <obj_property name="ElementShortName">R_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/READ" type="array">
+      <obj_property name="ElementShortName">READ[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_Memory_tb/DUT/R_RESPONSE" type="array">
+      <obj_property name="ElementShortName">R_RESPONSE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R_RESPONSE[3:0]</obj_property>
+   </wvobject>
+</wave_config>

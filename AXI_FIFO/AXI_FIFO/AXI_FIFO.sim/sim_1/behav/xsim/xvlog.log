@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LENOVO/Desktop/CE433/FinalExamReview/AXI_FIFO/AXI_FIFO/AXI_FIFO.srcs/sources_1/new/AXI_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LENOVO/Desktop/CE433/FinalExamReview/AXI_FIFO/AXI_FIFO/AXI_FIFO.srcs/sim_1/new/AXI_FIFO_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_FIFO_tb
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/LENOVO/Desktop/CE433/FinalExamReview/AXI_FIFO/AXI_FIFO/AXI_FIFO.srcs/sim_1/new/AXI_FIFO_tb.v:89]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [C:/Users/LENOVO/Desktop/CE433/FinalExamReview/AXI_FIFO/AXI_FIFO/AXI_FIFO.srcs/sim_1/new/AXI_FIFO_tb.v:102]

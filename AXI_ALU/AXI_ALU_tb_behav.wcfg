@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI_ALU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI_ALU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="262.601 ns"></ZoomEndTime>
+      <Cursor1Time time="155.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/AXI_ALU_tb/DUT/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/alu_op" type="array">
+      <obj_property name="ElementShortName">alu_op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/awvaid" type="logic">
+      <obj_property name="ElementShortName">awvaid</obj_property>
+      <obj_property name="ObjectShortName">awvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/wvaid" type="logic">
+      <obj_property name="ElementShortName">wvaid</obj_property>
+      <obj_property name="ObjectShortName">wvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/arvaid" type="logic">
+      <obj_property name="ElementShortName">arvaid</obj_property>
+      <obj_property name="ObjectShortName">arvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/rvaid" type="logic">
+      <obj_property name="ElementShortName">rvaid</obj_property>
+      <obj_property name="ObjectShortName">rvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/bresp_w" type="array">
+      <obj_property name="ElementShortName">bresp_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/bresp_r" type="array">
+      <obj_property name="ElementShortName">bresp_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/bvaid" type="logic">
+      <obj_property name="ElementShortName">bvaid</obj_property>
+      <obj_property name="ObjectShortName">bvaid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/op1" type="array">
+      <obj_property name="ElementShortName">op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/op2" type="array">
+      <obj_property name="ElementShortName">op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/operation1" type="array">
+      <obj_property name="ElementShortName">operation1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operation1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/operation2" type="array">
+      <obj_property name="ElementShortName">operation2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operation2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/we1" type="logic">
+      <obj_property name="ElementShortName">we1</obj_property>
+      <obj_property name="ObjectShortName">we1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/we2" type="logic">
+      <obj_property name="ElementShortName">we2</obj_property>
+      <obj_property name="ObjectShortName">we2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/read_result" type="logic">
+      <obj_property name="ElementShortName">read_result</obj_property>
+      <obj_property name="ObjectShortName">read_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/address_w" type="array">
+      <obj_property name="ElementShortName">address_w[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address_w[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/address_r" type="array">
+      <obj_property name="ElementShortName">address_r[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address_r[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/WRITE" type="array">
+      <obj_property name="ElementShortName">WRITE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/W_RESPONSE" type="array">
+      <obj_property name="ElementShortName">W_RESPONSE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_RESPONSE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/READ" type="array">
+      <obj_property name="ElementShortName">READ[3:0]</obj_property>
+      <obj_property name="ObjectShortName">READ[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AXI_ALU_tb/DUT/R_RESPONSE" type="array">
+      <obj_property name="ElementShortName">R_RESPONSE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R_RESPONSE[3:0]</obj_property>
+   </wvobject>
+</wave_config>
